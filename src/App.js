@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
+import MyRouting from './routing';
 import Header from './header/header';
-import Banner from './home-page/banner';
-import HomeContent from './home-page/contents';
+import Footer from './footer/footer';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header/>
-        <Banner />
-        <HomeContent />
+        <MyRouting />
+        <Footer />
       </div>
     );
   }

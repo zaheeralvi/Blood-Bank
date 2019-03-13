@@ -2944,7 +2944,7 @@ a.btn-cta-3:hover {
   border: 1px solid #EEE;
   -moz-appearance: none;
   position: relative;
-  background-image: url("../images/down_arrow.png");
+  /* background-image: url("../images/down_arrow.png"); */
   background-position: 100% 4px;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -5344,8 +5344,9 @@ span.border-bold-dashed {
   margin-top: -220px !important;
 }
 .margin-top-appointment-reverse {
-  margin-top: -350px !important;
+  margin-top: -200px !important;
 }
+
 /*----- TOP MARGIN ----*/
 .margin-top-5 {
   margin-top: 5px;
