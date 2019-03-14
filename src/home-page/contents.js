@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import CountUp from 'react-countup';
+import { NavLink } from 'react-router-dom';
+
 class HomeContent extends Component {
-   
+  
     render() {
         return (   
             <div>
@@ -15,76 +17,76 @@ class HomeContent extends Component {
                         </div>
                         <div className="row">
                             <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <a href='#'>
+                                <NavLink to='/details/1'>
                                     <div className="counter-block-1">
                                         <img src='./images/o+.png' className='img-responsive' />
                                         <span className="counter"><CountUp end={2578} /></span>                            
                                         <h4 className="text-capitalize">O+ Donors</h4>
                                     </div>
-                                </a>
+                                </NavLink>
                             </div> 
                             <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <a href='#'>
+                                <NavLink to='/details/2'>
                                     <div className="counter-block-1">
                                         <img src='./images/a+.png' className='img-responsive' />
                                         <span className="counter"><CountUp end={3235} /></span>                            
                                         <h4 className="text-capitalize">A+ Donors</h4>
                                     </div>
-                                </a>    
+                                </NavLink>    
                             </div> 
                             <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <a href='#'>
+                                <NavLink to='/details/3'>
                                     <div className="counter-block-1">
                                         <img src='./images/b+.png' className='img-responsive' />
                                         <span className="counter"><CountUp end={3568} /></span>                             
                                         <h4 className="text-capitalize">B+ Donors</h4>
                                     </div>
-                                </a>
+                                </NavLink>
                             </div> 
                             <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <a href='#'>
+                                <NavLink to='/details/4'>
                                     <div className="counter-block-1">
                                         <img src='./images/ab+.png' className='img-responsive' />
                                         <span className="counter"><CountUp end={1364} /></span>                            
                                         <h4 className="text-capitalize">AB+ Donors</h4>
                                     </div>
-                                </a>
+                                </NavLink>
                             </div> 
                             <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <a href='#'>
+                                <NavLink to='/details/5'>
                                     <div className="counter-block-1">
                                         <img src='./images/o-.png' className='img-responsive' />
                                         <span className="counter"><CountUp end={2578} /></span>                            
                                         <h4 className="text-capitalize">O- Donors</h4>
                                     </div>
-                                </a>
+                                </NavLink>
                             </div> 
                             <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <a href='#'>
+                                <NavLink to='/details/6'>
                                     <div className="counter-block-1">
                                         <img src='./images/a-.png' className='img-responsive' />
                                         <span className="counter"><CountUp end={3235} /></span>                            
                                         <h4 className="text-capitalize">A- Donors</h4>
                                     </div>
-                                </a>
+                                </NavLink>
                             </div> 
                             <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <a href='#'>
+                                <NavLink to='/details/7'>
                                     <div className="counter-block-1">
                                     <img src='./images/b-.png' className='img-responsive' />
                                         <span className="counter"><CountUp end={3568} /></span>                             
                                         <h4 className="text-capitalize">B- Donors</h4>
                                     </div>
-                                </a>
+                                </NavLink>
                             </div> 
                             <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <a href='#'>
+                                <NavLink to='/details/8'>
                                     <div className="counter-block-1">
                                         <img src='./images/ab-.png' className='img-responsive' />
                                         <span className="counter"><CountUp end={1364} /></span>                            
                                         <h4 className="text-capitalize">Ab- Donors</h4>
                                     </div>
-                                </a>
+                                </NavLink>
                             </div> 
                         </div> 
                     </div> 

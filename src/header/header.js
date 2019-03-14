@@ -47,7 +47,7 @@ class Header extends Component {
                                     </li>
                                     <li>
                                         <NavLink to='/process'>Process</NavLink>
-                                    </li>
+                                    </li>                                   
                                 </ul>
                             </div>
                         </div>
