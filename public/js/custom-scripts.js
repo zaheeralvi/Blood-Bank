@@ -796,14 +796,6 @@ jQuery(function ($) {
         });
     } 
 
-    // COUNTER
-
-    if ($(".counter").length ) {
-        $('.counter').counterUp({
-            delay: 10,
-            time: 2000
-        });
-    }
     
     //CLIENTS LOGOS 
     
@@ -1091,8 +1083,8 @@ jQuery(function ($) {
 
         map = new GMaps({
             div: '#map_canvas',
-            lat: -12.043333,
-            lng: -77.028333
+            lat: 32.589756,
+            lng: 74.499237
         });
 
     }

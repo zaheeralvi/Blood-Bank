@@ -1,16 +1,7 @@
 import React, { Component } from 'react';
 import CountUp from 'react-countup';
 class HomeContent extends Component {
-
-    componentDidMount () {
-        const script = document.createElement("script");
-    
-        script.src = "/js/custom-scripts.js";
-        script.async = true;
-    
-        document.body.appendChild(script);
-    }
-    
+   
     render() {
         return (   
             <div>
