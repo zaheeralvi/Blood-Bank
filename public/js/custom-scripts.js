@@ -338,7 +338,7 @@ jQuery(function ($) {
         }
         
     }
-    
+    console.log($("#slider_1").length);
     if ($("#slider_1").length) {
         
         // BG & Color Settings.

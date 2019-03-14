@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
-
+import CountUp from 'react-countup';
 class HomeContent extends Component {
+
+    componentDidMount () {
+        const script = document.createElement("script");
+    
+        script.src = "/js/custom-scripts.js";
+        script.async = true;
+    
+        document.body.appendChild(script);
+    }
+    
     render() {
         return (   
             <div>
@@ -17,7 +27,7 @@ class HomeContent extends Component {
                                 <a href='#'>
                                     <div className="counter-block-1">
                                         <img src='./images/o+.png' className='img-responsive' />
-                                        <span className="counter">2578</span>                            
+                                        <span className="counter"><CountUp end={2578} /></span>                            
                                         <h4 className="text-capitalize">O+ Donors</h4>
                                     </div>
                                 </a>
@@ -26,7 +36,7 @@ class HomeContent extends Component {
                                 <a href='#'>
                                     <div className="counter-block-1">
                                         <img src='./images/a+.png' className='img-responsive' />
-                                        <span className="counter">3235</span>                            
+                                        <span className="counter"><CountUp end={3235} /></span>                            
                                         <h4 className="text-capitalize">A+ Donors</h4>
                                     </div>
                                 </a>    
@@ -35,7 +45,7 @@ class HomeContent extends Component {
                                 <a href='#'>
                                     <div className="counter-block-1">
                                         <img src='./images/b+.png' className='img-responsive' />
-                                        <span className="counter">3568</span>                             
+                                        <span className="counter"><CountUp end={3568} /></span>                             
                                         <h4 className="text-capitalize">B+ Donors</h4>
                                     </div>
                                 </a>
@@ -44,7 +54,7 @@ class HomeContent extends Component {
                                 <a href='#'>
                                     <div className="counter-block-1">
                                         <img src='./images/ab+.png' className='img-responsive' />
-                                        <span className="counter">1364</span>                            
+                                        <span className="counter"><CountUp end={1364} /></span>                            
                                         <h4 className="text-capitalize">AB+ Donors</h4>
                                     </div>
                                 </a>
@@ -53,7 +63,7 @@ class HomeContent extends Component {
                                 <a href='#'>
                                     <div className="counter-block-1">
                                         <img src='./images/o-.png' className='img-responsive' />
-                                        <span className="counter">2578</span>                            
+                                        <span className="counter"><CountUp end={2578} /></span>                            
                                         <h4 className="text-capitalize">O- Donors</h4>
                                     </div>
                                 </a>
@@ -62,7 +72,7 @@ class HomeContent extends Component {
                                 <a href='#'>
                                     <div className="counter-block-1">
                                         <img src='./images/a-.png' className='img-responsive' />
-                                        <span className="counter">3235</span>                            
+                                        <span className="counter"><CountUp end={3235} /></span>                            
                                         <h4 className="text-capitalize">A- Donors</h4>
                                     </div>
                                 </a>
@@ -71,7 +81,7 @@ class HomeContent extends Component {
                                 <a href='#'>
                                     <div className="counter-block-1">
                                     <img src='./images/b-.png' className='img-responsive' />
-                                        <span className="counter">3568</span>                             
+                                        <span className="counter"><CountUp end={3568} /></span>                             
                                         <h4 className="text-capitalize">B- Donors</h4>
                                     </div>
                                 </a>
@@ -80,7 +90,7 @@ class HomeContent extends Component {
                                 <a href='#'>
                                     <div className="counter-block-1">
                                         <img src='./images/ab-.png' className='img-responsive' />
-                                        <span className="counter">1364</span>                            
+                                        <span className="counter"><CountUp end={1364} /></span>                            
                                         <h4 className="text-capitalize">Ab- Donors</h4>
                                     </div>
                                 </a>
@@ -88,6 +98,11 @@ class HomeContent extends Component {
                         </div> 
                     </div> 
                 </section>  
+                <section class="section-content-block section-custom-bg section-custom-bg-extra-padding" data-bg_img='images/appointment_female_bg.jpg' data-bg_color='#000000' data-bg_opacity='0.1'>
+                    <div class="container">
+                        <div class="custom-empty-space" data-height="160px" data-class="col-sm-hidden"></div>
+                    </div>
+                </section>
                 <section className="section-content-block section-secondary-bg">
                     <div className="container">
                         <div className="row">
